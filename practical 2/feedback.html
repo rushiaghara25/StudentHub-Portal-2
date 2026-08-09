@@ -3,40 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback</title>
+    <title>Student Feedback</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
+
 <body>
-    <h1> Feedback </h1>
+
+<h1>Student Feedback</h1>
+
+<nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="profile.html">Profile</a>
+    <a href="event.html">Events</a>
+    <a href="faq.html">FAQ</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
 <p>
-Thank you for visiting StudentHub. We value your opinions and suggestions.<br>
-Please share your experience with our website. Your feedback helps us 
-improve <br> our services and provide a better experience for all students.
+    Share your experience and suggestions to help improve StudentHub.
 </p>
 
-<form>
-    <label> Full Name : </label><br>
-    <input type="text"><br><br>
-     
-    <label>Enrollment Number:</label><br>
-    <input type="text"><br><br>
+<form action="dashboard.html">
 
-    <label>Email Address:</label><br>
-    <input type="email"><br><br>
+    <label>Full Name:</label>
+    <input type="text" required>
 
-    <label>Department:</label><br>
-    <input type="text"><br><br>
+    <label>Enrollment Number:</label>
+    <input type="text" required>
 
-    <lable>Rate your experience</lable><br>
-    <input type="radio" name="rating">Excellent
-    <input type="radio" name="rating">Good
-    <input type="radio" name="rating">Average
-    <input type="radio" name="rating">bad
-    <br>   
+    <label>Email Address:</label>
+    <input type="email" required>
+
+    <label>Rating:</label>
+
+    <input type="radio" name="rating"> Excellent
+    <input type="radio" name="rating"> Good
+    <input type="radio" name="rating"> Average
+    <input type="radio" name="rating"> Poor
     <br>
-    <input type=submit value="Submit"><br><br>
-    <input type=reset value="Reset"><br><br>
+    <label>Feedback:</label>
+    <textarea rows="5"></textarea>
 
+    <input type="submit" value="Submit Feedback">
+    <input type="reset" value="Reset">
 
 </form>
+
+<p>
+    <a href="dashboard.html">Back to Dashboard</a>
+</p>
+
+<p>
+    <a href="login.html">Logout</a>
+</p>
+
 </body>
 </html>
