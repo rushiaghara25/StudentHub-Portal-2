@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>StudentHub Login</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
+
 <body>
-    <h2>Login</h2>
 
-<form>
+<h1>StudentHub Login</h1>
 
-<label>Email:</label>
-<input type="email" required>
+<p>
+    Login to continue to your StudentHub dashboard.
+</p>
 
-<br><br>
+<form action="dashboard.html">
 
-<label>Password:</label>
-<input type="password" required>
+    <label>Email Address:</label>
+    <input type="email" required>
 
-<br><br>
+    <label>Password:</label>
+    <input type="password" required>
 
-<button>Login</button>
+    <input type="submit" value="Login">
+    <input type="reset" value="Clear">
 
 </form>
+
+<p>
+    New student?
+    <a href="register.html">Register here</a>
+</p>
+
+<p>
+    <a href="../index.html">Back to StudentHub</a>
+</p>
+
 </body>
 </html>
